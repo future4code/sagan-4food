@@ -5,8 +5,8 @@
 }
 
 body {
-    width: 100vw;
-    height: 95vh;
+    width: 99w;
+    height: 98vh;
     display: grid;
     grid-template-rows: 10% 85% 5%;
 }
@@ -14,4 +14,10 @@ body {
 section {
     display: grid;
     grid-template-columns: 25% 75%;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: blueviolet;
+    }
 }
