@@ -1,0 +1,17 @@
+* {
+    border: 1pt solid black;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 95vh;
+    display: grid;
+    grid-template-rows: 10% 85% 5%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
