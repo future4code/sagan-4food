@@ -1,0 +1,78 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    color: #542c16;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 20% 75% 5%;
+}
+
+.principal-cabecalho {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-image: url(bg2.jpg);
+}
+
+.rodape {
+    background-color: rgba(8, 73, 26, .40);
+}
+
+
+/* img {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.cabecalho-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-logo>img {
+    border-radius: 50%;
+    border: 1px solid rgba(8, 73, 26, .40);
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.barra-busca {
+    border-radius: 2vh;
+    margin-left: 2vh;
+    height: 3vh;
+    width: 20vw;
+    font-style: italic;
+    border: 1px solid rgba(8, 73, 26, .40);
+}
+
+.cabecalho-busca {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecalho-outros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-dif {
+    padding: 0.5vh;
+    display: inline-block;
+    border: 1px solid rgba(8, 73, 26, .40);
+    border-radius: 1vh;
+    margin: 1vh;
+    background-color: whitesmoke;
+}
